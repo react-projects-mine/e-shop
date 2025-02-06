@@ -1,0 +1,17 @@
+@import "_variables";
+
+input [type="text"], [type="search"] {
+    
+    &:focus {
+        box-shadow: none;
+        outline: 0;
+    }
+
+    &::placeholder {
+        color: $text-color;
+    }
+
+    &:hover {
+        color: $text-color;
+    }
+}
