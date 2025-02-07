@@ -1,9 +1,35 @@
 // Colors
-$primary-color: #007bff;
-$secondary-color: #6c757d;
-$background-color: #f8f9fa;
+$primary-color: #131921;
+$secondary-color: #ff9f00;
+$text-primary: #131921;
 $text-color: #333;
+$light: #ffffff;
 
 // Spacing
 $padding: 16px;
 $margin: 16px;
+
+// Fonts - Sizes, Weights, and family.
+
+// font-family
+
+$font-regular: 'Nunito-Regular', sans-serif;
+$font-medium: 'Nunito-Medium', sans-serif;
+$font-semibold: 'Nunito-SemiBold', sans-serif;
+$font-bold: 'Nunito-Bold', sans-serif;
+$font-black: 'Nunito-Black', sans-serif;
+
+// font-weights
+
+$font-wt-regular: 400;
+$font-wt-medium: 500;
+$font-wt-semibold: 600;
+$font-wt-bold: 700;   
+$font-wt-black: 900; 
+
+// font-sizes
+
+$font-xs: 12px;
+$font-dft: 16px;
+$font-md: 18px;
+$font-lg: 18px;

@@ -1,17 +1,17 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "../pages/Home/home";
-import Login from "../pages/Login/login";
-import Header from "../components/Header/header";
-import Footer from "../components/Footer/footer";
+import Home from "../pages/home/home";
+import Login from "../pages/login/login";
+import Header from "../components/header/header";
+import Footer from "../components/footer/footer";
 const AppRouter = () => {
     return (
-        <Router>
+        <Router> 
             <Header />
             <Routes>
-                <Route path="/home" element={<Home />} />
+                <Route path="/" element={<Home />} />
                 <Route path="/login" element={<Login />} />
-            </Routes>
+            </Routes> 
             <Footer />
         </Router>
     );
