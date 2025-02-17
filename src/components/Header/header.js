@@ -1,11 +1,18 @@
 import React from "react";
+
+import StorefrontIcon from '@mui/icons-material/Storefront';
+import SearchIcon from '@mui/icons-material/Search';
+import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
+
 import "./header.scss";
 
 function Header() {
     return (
         <div className="header">
             <div className="header-logo">
-                <div className="header-logo-image"></div>
+                <div className="header-logo-image">
+                    <StorefrontIcon fontSize="large"/>
+                </div>
                 <div className="header-logo-name">eShop</div>
             </div>
             <div className="header-search">
@@ -13,7 +20,7 @@ function Header() {
                     <input type="text" placeholder="Search..."/>
                 </div>
                 <div className="header-search-icon">
-                    <i className="fa fa-search"></i>
+                    <SearchIcon />
                 </div>
             </div>
             <div className="header-options">
@@ -26,8 +33,10 @@ function Header() {
                     <div className="header-display">Shop</div>
                 </div>
                 <div className="header-icon-count">
-                    <div className="header-bag-icon"></div>
-                    <div className="header-bag-count">0</div>
+                    <div className="header-bag-icon">
+                        <ShoppingBasketIcon fontSize="medium"/>
+                    </div>
+                    <div className="header-bag-count">1000</div>
                 </div>
             </div>
         </div>

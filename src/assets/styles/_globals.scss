@@ -1,5 +1,11 @@
 @import "_variables";
 
+:root {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,3 +16,29 @@ body {
     font-family: 'Nunito', sans-serif;
     color: $text-color;
 }
+
+
+// Scroll Bars for Chrome, Mozilla, Safari and Opera
+
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track (the background of the scrollbar) */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 5px;
+  }
+  
+  /* Handle (the draggable part of the scrollbar) */
+  ::-webkit-scrollbar-thumb {
+    background: $secondary-color; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: lighten($color: $secondary-color, $amount: 10); 
+  }
+  

@@ -4,10 +4,31 @@ $secondary-color: #ff9f00;
 $text-primary: #131921;
 $text-color: #333;
 $light: #ffffff;
+$dark: #000000;
+$light-grey: #b8b8b8;
 
 // Spacing
+$padding-xs: 10px;
 $padding: 16px;
 $margin: 16px;
+
+
+// Border Radius
+
+$br3: 3px;
+$br4: 4px;
+$br5: 5px;
+$br6: 6px;
+$br10: 10px;
+$br12: 12px;
+
+// Gaps
+
+$gap-xs: 5px;
+$gap: 10px;
+$gap-md: 12px;
+$gap-lg: 16px;
+$gap-xl: 24px;  
 
 // Fonts - Sizes, Weights, and family.
 
@@ -30,6 +51,13 @@ $font-wt-black: 900;
 // font-sizes
 
 $font-xs: 12px;
-$font-dft: 16px;
-$font-md: 18px;
+$font-dflt: 16px;
+$font-md: 14px;
 $font-lg: 18px;
+$font-xl: 24px;
+
+
+// Transitions
+
+$trans-3: 0.3s all ease-in;
+$trans-5: 0.5s all ease-in;

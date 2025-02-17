@@ -1,14 +1,15 @@
 @import "_variables";
 
-input [type="text"], [type="search"] {
+input[type="text"],[type="search"] {
     
-    &:focus {
+    &:focus, &:focus-visible {
         box-shadow: none;
         outline: 0;
+        border: 1px solid $light;
     }
 
     &::placeholder {
-        color: $text-color;
+        color: $light-grey;
     }
 
     &:hover {
